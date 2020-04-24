@@ -1,0 +1,42 @@
+$transparent-white: rgba(255, 255, 255, 0.5);
+$light-green: #90ee90;
+
+.detailed-card {
+    background-color: #252B43;
+    border-radius: 3px;
+    color: white;
+    margin-top: 5vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    
+    text-align: center;
+
+    border-top: 3px solid red;
+
+    .handle {
+        font-size: 14px;
+        color: $transparent-white;
+    }
+
+    .follower-count {
+        margin-top: 3vh;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .follower-label {
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: $transparent-white;
+    }
+
+    .change {
+        margin-top: 3vh;
+        font-size: 14px;
+        color: $light-green;
+    }
+}
