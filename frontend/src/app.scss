@@ -1,4 +1,26 @@
+$transparent-white: rgba(255, 255, 255, 0.5);
+
 .container {
     width: 95%;
     margin: auto;
 }
+
+.top-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2vh;
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 0;
+        padding: none;
+    }
+
+    p {
+        color: $transparent-white;
+        font-size: 16px;
+        margin-top: 0;
+        padding: 0;
+    }
+}
+

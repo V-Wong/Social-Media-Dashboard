@@ -2,3 +2,19 @@
   width: 95%;
   margin: auto;
 }
+.top-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2vh;
+}
+.top-bar h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  padding: none;
+}
+.top-bar p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-top: 0;
+  padding: 0;
+}
