@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1adcc93.chunk.css",
-    "main.js": "/static/js/main.4a69b75a.chunk.js",
-    "main.js.map": "/static/js/main.4a69b75a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.84578d5e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.84578d5e.js.map",
-    "static/js/2.fabeac0e.chunk.js": "/static/js/2.fabeac0e.chunk.js",
-    "static/js/2.fabeac0e.chunk.js.map": "/static/js/2.fabeac0e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.80e16074a9660eddb25b0542bf017e98.js": "/precache-manifest.80e16074a9660eddb25b0542bf017e98.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e1adcc93.chunk.css.map": "/static/css/main.e1adcc93.chunk.css.map",
-    "static/js/2.fabeac0e.chunk.js.LICENSE.txt": "/static/js/2.fabeac0e.chunk.js.LICENSE.txt"
+    "main.css": "/Social-Media-Dashboard/static/css/main.e1adcc93.chunk.css",
+    "main.js": "/Social-Media-Dashboard/static/js/main.f4c426eb.chunk.js",
+    "main.js.map": "/Social-Media-Dashboard/static/js/main.f4c426eb.chunk.js.map",
+    "runtime-main.js": "/Social-Media-Dashboard/static/js/runtime-main.dd1c2196.js",
+    "runtime-main.js.map": "/Social-Media-Dashboard/static/js/runtime-main.dd1c2196.js.map",
+    "static/js/2.86d9eea7.chunk.js": "/Social-Media-Dashboard/static/js/2.86d9eea7.chunk.js",
+    "static/js/2.86d9eea7.chunk.js.map": "/Social-Media-Dashboard/static/js/2.86d9eea7.chunk.js.map",
+    "index.html": "/Social-Media-Dashboard/index.html",
+    "precache-manifest.178828ea1dc14331f95b2972661d6579.js": "/Social-Media-Dashboard/precache-manifest.178828ea1dc14331f95b2972661d6579.js",
+    "service-worker.js": "/Social-Media-Dashboard/service-worker.js",
+    "static/css/main.e1adcc93.chunk.css.map": "/Social-Media-Dashboard/static/css/main.e1adcc93.chunk.css.map",
+    "static/js/2.86d9eea7.chunk.js.LICENSE.txt": "/Social-Media-Dashboard/static/js/2.86d9eea7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84578d5e.js",
-    "static/js/2.fabeac0e.chunk.js",
+    "static/js/runtime-main.dd1c2196.js",
+    "static/js/2.86d9eea7.chunk.js",
     "static/css/main.e1adcc93.chunk.css",
-    "static/js/main.4a69b75a.chunk.js"
+    "static/js/main.f4c426eb.chunk.js"
   ]
 }
