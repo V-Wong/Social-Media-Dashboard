@@ -4,7 +4,7 @@
 }
 .top-bar {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   margin-top: 2vh;
 }
 .top-bar h1 {
