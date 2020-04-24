@@ -11,7 +11,7 @@ export default class DetailedCard extends React.Component<any, any> {
         console.log(this.props);
 
         return (
-            <div className="detailed-card">
+            <div className="detailed-card" onClick={() => window.location.href = this.props.path}>
                 <div className="handle">
                     @{this.props.handle}
                 </div>

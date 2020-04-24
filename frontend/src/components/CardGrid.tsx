@@ -7,21 +7,25 @@ import "./css/card-grid.css"
 const SAMPLE_CARDS = [
     {
         site: "Facebook",
+        path: "facebook.com",
         handle: "Test",
         followerCount: 100
     },
     {
         site: "Facebook",
+        path: "facebook.com",
         handle: "Test",
         followerCount: 100
     },
     {
         site: "Facebook",
+        path: "facebook.com",
         handle: "Test",
         followerCount: 100
     },
     {
         site: "Facebook",
+        path: "facebook.com",
         handle: "Test",
         followerCount: 100
     },
@@ -42,6 +46,7 @@ export default class CardGrid extends React.Component<any, any> {
             .then(listFollowers => {
                 const gitHubDetails = {
                     site: "GitHub",
+                    path: "https://github.com/V-Wong/",
                     handle: "V-Wong",
                     followerCount: listFollowers.data.length
                 }
@@ -55,7 +60,10 @@ export default class CardGrid extends React.Component<any, any> {
         return (
             <div className="grid">
                 {this.state.cards.map(card => (
-                    <DetailedCard handle={card.handle} followerCount={card.followerCount}/>
+                    <DetailedCard handle={card.handle} 
+                     followerCount={card.followerCount} 
+                     path={card.path}
+                    />
                 ))}
             </div>
         )

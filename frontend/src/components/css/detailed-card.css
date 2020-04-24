@@ -9,6 +9,7 @@
   padding-bottom: 3vh;
   text-align: center;
   border-top: 3px solid red;
+  cursor: pointer;
 }
 .detailed-card .handle {
   font-size: 14px;
