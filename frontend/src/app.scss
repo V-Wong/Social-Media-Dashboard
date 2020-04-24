@@ -1,4 +1,5 @@
 $transparent-white: rgba(255, 255, 255, 0.5);
+$dark-grey: 	#505050;
 
 .container {
     width: 95%;
@@ -16,7 +17,7 @@ $transparent-white: rgba(255, 255, 255, 0.5);
         padding: none;
     }
 
-    p {
+    .total-followers {
         color: $transparent-white;
         font-size: 16px;
         margin-top: 0;
@@ -24,3 +25,8 @@ $transparent-white: rgba(255, 255, 255, 0.5);
     }
 }
 
+.top-bar.light {
+    .total-followers {
+        color: $dark-grey;
+    }
+}

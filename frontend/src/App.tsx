@@ -10,7 +10,7 @@ function App() {
       <div className="top-bar">
         <h1>Social Media Dashboard</h1>
         <div></div>
-        <p>Total followers: 3</p>
+        <p className="total-followers">Total followers: 3</p>
         <ThemeSwitch/>
       </div>
       <CardGrid/>

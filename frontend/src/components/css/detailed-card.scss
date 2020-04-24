@@ -1,6 +1,8 @@
 $transparent-white: rgba(255, 255, 255, 0.5);
 $light-green: #90ee90;
 
+$dark-grey: 	#505050;
+
 .detailed-card {
     background-color: #252B43;
     border-radius: 3px;
@@ -40,5 +42,22 @@ $light-green: #90ee90;
         margin-top: 3vh;
         font-size: 14px;
         color: $light-green;
+    }
+}
+
+.detailed-card.light {
+    background-color: #F0F3FA;
+    color: black;
+
+    .handle {
+        color: $dark-grey;
+    }
+
+    .follower-label {
+        color: $dark-grey;
+    }
+
+    .change {
+        color: green;
     }
 }
