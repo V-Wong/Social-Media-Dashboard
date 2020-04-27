@@ -19,13 +19,7 @@ const SAMPLE_CARDS = [
         path: "facebook.com",
         handle: "Test",
         followerCount: 100,
-        style: {
-            borderTop: "5px solid transparent",
-            backgroundImage: "linear-gradient(#252B43, #252B43), linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
-            backgroundOrigin: "border-box",
-            borderRadius: "3px",
-            backgroundClip: "padding-box, border-box"
-        }
+        type: "instagram"
     },
     {
         site: "Facebook",
@@ -84,6 +78,7 @@ export default class CardGrid extends React.Component<any, any> {
                      followerCount={card.followerCount} 
                      path={card.path}
                      styles={card.style}
+                     type={card.type}
                     />
                 ))}
             </div>

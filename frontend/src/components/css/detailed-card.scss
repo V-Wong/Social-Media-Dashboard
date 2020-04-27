@@ -43,6 +43,14 @@ $dark-grey: 	#505050;
     }
 }
 
+.detailed-card.instagram {
+    border-top: 5px solid transparent;
+    background-image: linear-gradient(#252B43, #252B43), linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    background-origin: border-box;
+    border-radius: 3px;
+    background-clip: padding-box, border-box;
+}
+
 .detailed-card.light {
     background-color: #F0F3FA;
     color: black;
@@ -58,4 +66,12 @@ $dark-grey: 	#505050;
     .change {
         color: green;
     }
+}
+
+.detailed-card.instagram.light {
+    border-top: 5px solid transparent;
+    background-image: linear-gradient(#F0F3FA, #F0F3FA), linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    background-origin: border-box;
+    border-radius: 3px;
+    background-clip: padding-box, border-box;
 }

@@ -30,6 +30,14 @@
   font-size: 14px;
   color: #90ee90;
 }
+.detailed-card.instagram {
+  border-top: 5px solid transparent;
+  background-image: linear-gradient(#252b43, #252b43),
+    linear-gradient(90deg, #fdc468, #df4996);
+  background-origin: border-box;
+  border-radius: 3px;
+  background-clip: padding-box, border-box;
+}
 .detailed-card.light {
   background-color: #f0f3fa;
   color: black;
@@ -42,4 +50,12 @@
 }
 .detailed-card.light .change {
   color: green;
+}
+.detailed-card.instagram.light {
+  border-top: 5px solid transparent;
+  background-image: linear-gradient(#f0f3fa, #f0f3fa),
+    linear-gradient(90deg, #fdc468, #df4996);
+  background-origin: border-box;
+  border-radius: 3px;
+  background-clip: padding-box, border-box;
 }
